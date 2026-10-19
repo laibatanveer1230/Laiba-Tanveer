@@ -1,0 +1,91 @@
+body {
+    margin: 15px;
+    font-family: Arial;
+    background: #eef3fa;
+    color: #54172e;
+}
+
+header {
+    background: #6e89a7;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero {
+    padding: 30px;
+    color: white;
+    background: linear-gradient(
+        to right,
+        #5e1247,
+        transparent
+    ), url("hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    background: #8538e8;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.courses {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.courses div {
+    flex: 1;
+    padding: 15px;
+    background: #e2efff;
+    border-radius: 8px;
+}
+
+.quote {
+    background: #c47dac;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    background: white;
+}
+
+.bottom div {
+    flex: 1;
+}
+
+input {
+    padding: 8px;
+    max-width: 150px;
+}
+
+img {
+    display: block;
+    margin-top: 15px;
+    max-width: 100%;
+}
+
+footer {
+    background: #cf1d7f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
